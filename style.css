@@ -32,8 +32,11 @@ body {
 .nav-link {
   font-family: var(--font-poppins);
   margin: 0 20px 0 20px;
+  color: var(--clr-white) !important;
 }
-
+.hero-container{
+  margin-top: 7rem;
+}
 .navbar-brand {
   color: var(--clr-white);
   font-weight: var(--weight-secondary);
@@ -490,7 +493,7 @@ iframe {
 }
 .schedule-img {
   width: 60rem;
-  height: auto;
+  height: 30rem;
   background-color: inherit;
 }
 .schedule_header {
@@ -511,13 +514,13 @@ iframe {
   width: 45rem;
 }
 .schedule-second {
-  top: 10.5rem;
-  left: 9rem;
+  top: 5.5rem;
+  left:9rem;
   width: 45rem;
   text-align: end;
 }
 .schedule-third {
-  top: 21rem;
+  top: 12rem;
   left: 5rem;
   width: 45rem;
 }
