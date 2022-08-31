@@ -713,6 +713,9 @@ iframe {
     margin-left: 0;
     margin-top: 5rem;
   }
+  .active{
+    border: none;
+  }
 }
 @media (max-width: 425px) {
 
