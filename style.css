@@ -658,24 +658,24 @@ iframe {
     font-size: 4rem;
   }
   .schedule-img {
-    width: 43rem;
+    width: 29rem;
     height: 34rem;
   }
   .schedule-first {
     top: -0.40000000000000036rem;
     left: 3rem;
-    width: 38rem;
+    width: 22rem;
   }
   .schedule-second {
-    top: 8.5rem;
-    left: 2rem;
-    width: 38rem;
+    top: 6.5rem;
+    left: 5rem;
+    width: 22rem;
     text-align: end;
   }
   .schedule-third {
-    top: 18rem;
-    left: 3rem;
-    width: 38rem;
+    top: 15rem;
+    left: 2rem;
+    width: 22rem;
   }
   .registration-btn{
     margin: 0;
@@ -687,15 +687,8 @@ iframe {
     margin-left: 0;
   }
 }
-@media (max-width: 376px) {
-  .faq_header span {
-    font-size: 4rem;
-  }
+@media (max-width: 425px) {
 
-  .faq_header h5 {
-    font-size: 2rem;
-    margin-top: 0rem;
-  }
   .schedule-img {
     width: 19rem;
     height: 39rem;
@@ -713,6 +706,37 @@ iframe {
   }
   .schedule-third {
     top: 15rem;
+    left: 2rem;
+    width: 12rem;
+  }
+}
+@media (max-width: 376px) {
+  .faq_header span {
+    font-size: 4rem;
+  }
+
+  .faq_header h5 {
+    font-size: 2rem;
+    margin-top: 0rem;
+  }
+  .schedule-img {
+    width: 19rem;
+    height: 36rem;
+  }
+  .schedule-first {
+    top: -0.4rem;
+    left: 2rem;
+    width: 12rem;
+}
+  
+  .schedule-second {
+    top: 5.5rem;
+    left: 4rem;
+    width: 12rem;
+    text-align: end;
+  }
+  .schedule-third {
+    top: 13rem;
     left: 2rem;
     width: 12rem;
   }
