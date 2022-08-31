@@ -658,6 +658,7 @@ iframe {
   color: var(--clr-aqua);
   background-color: var(--clr-dark);
   font-family: var(--font-poppins);
+  font-size: 1rem !important;
 }
 .registration-close-icon{
   color: var(--clr-aqua) !important;
