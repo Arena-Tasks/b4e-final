@@ -705,6 +705,8 @@ iframe {
   }
   .registration-center{
     border: none;
+    margin-left: 0;
+    margin-right: 0;
   }
   .about-second{
     margin-left: 0;
@@ -773,6 +775,8 @@ iframe {
     border: none;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
   }
   .registration-btn{
     margin: 0;
