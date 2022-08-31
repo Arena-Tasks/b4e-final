@@ -833,19 +833,19 @@ iframe {
   .schedule-first {
     top: -0.4rem;
     left: 2rem;
-    width: 12rem;
+    width: 17rem;
   }
 
   .schedule-second {
     top: 5.5rem;
-    left: 4rem;
-    width: 12rem;
+    left: 0rem;
+    width: 17rem;
     text-align: end;
   }
   .schedule-third {
     top: 13rem;
     left: 2rem;
-    width: 12rem;
+    width: 17rem;
   }
   .navbar-brand {
     font-size: 1.2rem;
