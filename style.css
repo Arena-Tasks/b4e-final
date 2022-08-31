@@ -34,7 +34,7 @@ body {
   margin: 0 20px 0 20px;
   color: var(--clr-white) !important;
 }
-.hero-container{
+.hero-container {
   margin-top: 7rem;
 }
 .navbar-brand {
@@ -411,7 +411,7 @@ iframe {
   width: 40rem;
   padding: 2rem 2rem;
 }
-.about-second{
+.about-second {
   margin-left: 5rem;
 }
 .snip1533 :before {
@@ -516,7 +516,7 @@ iframe {
 }
 .schedule-second {
   top: 5.5rem;
-  left:9rem;
+  left: 9rem;
   width: 45rem;
   text-align: end;
 }
@@ -587,17 +587,17 @@ iframe {
   left: 30px;
   top: 46px;
 }
-.registration-icon{
+.registration-icon {
   color: var(--clr-aqua);
   font-size: 3rem;
 }
-.registration-text{
+.registration-text {
   color: var(--clr-white);
   font-family: var(--font-poppins);
   font-weight: 400px;
   line-height: 1.5rem;
 }
-.registration-step-text{
+.registration-step-text {
   color: var(--clr-white);
   font-family: var(--font-sans);
   font-weight: var(--weight-primary);
@@ -605,7 +605,7 @@ iframe {
   text-transform: uppercase;
   margin-top: 1rem;
 }
-.registration-center{
+.registration-center {
   margin-left: 3rem;
   margin-right: 3rem;
   border-left: 0.5rem solid var(--clr-aqua);
@@ -613,99 +613,97 @@ iframe {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.registration-btn{
+.registration-btn {
   color: var(--clr-white);
   background-color: var(--clr-aqua);
   font-size: 2rem;
   width: 18rem;
   margin-left: -4rem;
 }
-.registration-submit-btn{
+.registration-submit-btn {
   color: var(--clr-aqua);
   background-color: var(--clr-dark);
   font-size: 2rem;
   width: 18rem;
 }
 
-.form-group label{
+.form-group label {
   font-family: var(--font-poppins);
   color: var(--clr-dark);
 }
-.form-group input{
+.form-group input {
   font-family: var(--font-poppins);
-  color: var(--clr-dark); 
+  color: var(--clr-dark);
 }
-.modal-content{
+.modal-content {
   background-color: var(--clr-aqua) !important;
   font-weight: var(--weight-primary) !important;
   font-family: var(--font-poppins) !important;
   color: var(--clr-dark);
-
 }
-.registration-form label{
+.registration-form label {
   color: var(--clr-dark);
   font-family: var(--font-poppins) !important;
   font-weight: var(--weight-primary) !important;
 }
-.registration-model-text{
+.registration-model-text {
   font-family: var(--font-poppins);
   font-weight: var(--weight-secondary);
   color: var(--clr-dark);
 }
-.registration-model-header{
+.registration-model-header {
   border-bottom: 2px solid var(--clr-dark) !important;
 }
-.registration-close{
+.registration-close {
   color: var(--clr-aqua);
   background-color: var(--clr-dark);
   font-family: var(--font-poppins);
   font-size: 1rem !important;
 }
-.registration-close-icon{
+.registration-close-icon {
   color: var(--clr-aqua) !important;
   background-color: var(--clr-dark) !important;
   padding: 5px 10px !important;
   font-weight: 0;
   text-shadow: none;
 }
-.registration-close-icon:hover{
+.registration-close-icon:hover {
   color: var(--clr-aqua) !important;
   background-color: var(--clr-dark) !important;
   padding: 5px 10px !important;
   font-weight: 0;
   text-shadow: none;
 }
-.registration-form input{
+.registration-form input {
   color: var(--clr-dark);
   font-family: var(--font-poppins) !important;
   font-weight: var(--weight-primary) !important;
-  border:none  !important;
+  border: none !important;
   border-bottom: 4px solid var(--clr-dark) !important;
   padding: 5px 10px !important;
   outline: none !important;
   background-color: var(--clr-aqua);
 }
-.registration-form input:focus{
+.registration-form input:focus {
   color: var(--clr-dark);
   border: none !important;
   border-bottom: 4px solid var(--clr-dark) !important;
   outline: none !important;
   background-color: var(--clr-aqua);
 }
-.registration-form select{
+.registration-form select {
   color: var(--clr-aqua);
   font-family: var(--font-poppins) !important;
   font-weight: var(--weight-secondary) !important;
   background-color: var(--clr-dark);
 }
-.registration-form select:focus{
+.registration-form select:focus {
   color: var(--clr-aqua);
   font-family: var(--font-poppins) !important;
   font-weight: var(--weight-secondary) !important;
   background-color: var(--clr-dark);
 }
 @media (max-width: 999px) {
-
   .schedule-img {
     width: 40rem;
     height: 33rem;
@@ -771,24 +769,23 @@ iframe {
     left: 2rem;
     width: 22rem;
   }
-  .registration-btn{
+  .registration-btn {
     margin: 0;
   }
-  .registration-center{
+  .registration-center {
     border: none;
     margin-left: 0;
     margin-right: 0;
   }
-  .about-second{
+  .about-second {
     margin-left: 0;
     margin-top: 5rem;
   }
-  .active{
+  .active {
     border: none;
   }
 }
 @media (max-width: 425px) {
-
   .schedule-img {
     width: 24rem;
     height: 33rem;
@@ -827,8 +824,8 @@ iframe {
     top: -0.4rem;
     left: 2rem;
     width: 12rem;
-}
-  
+  }
+
   .schedule-second {
     top: 5.5rem;
     left: 4rem;
@@ -843,20 +840,20 @@ iframe {
   .navbar-brand {
     font-size: 1.2rem;
   }
-  .snip1533{
+  .snip1533 {
     margin-left: 0;
   }
-  .registration-center{
+  .registration-center {
     border: none;
     margin-top: 5rem;
     margin-bottom: 5rem;
     margin-left: 0;
     margin-right: 0;
   }
-  .registration-btn{
+  .registration-btn {
     margin: 0;
   }
-  .hero-btn{
+  .hero-btn {
     font-size: 1.2rem;
   }
 }
