@@ -710,6 +710,7 @@ iframe {
   }
   .about-second{
     margin-left: 0;
+    margin-top: 5rem;
   }
 }
 @media (max-width: 425px) {
@@ -780,5 +781,8 @@ iframe {
   }
   .registration-btn{
     margin: 0;
+  }
+  .hero-btn{
+    font-size: 1.2rem;
   }
 }
