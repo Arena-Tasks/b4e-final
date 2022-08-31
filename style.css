@@ -659,6 +659,20 @@ iframe {
   background-color: var(--clr-dark);
   font-family: var(--font-poppins);
 }
+.registration-close-icon{
+  color: var(--clr-aqua) !important;
+  background-color: var(--clr-dark) !important;
+  padding: 5px 10px !important;
+  font-weight: 0;
+  text-shadow: none;
+}
+.registration-close-icon:hover{
+  color: var(--clr-aqua) !important;
+  background-color: var(--clr-dark) !important;
+  padding: 5px 10px !important;
+  font-weight: 0;
+  text-shadow: none;
+}
 .registration-form input{
   color: var(--clr-dark);
   font-family: var(--font-poppins) !important;
