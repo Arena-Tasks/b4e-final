@@ -620,8 +620,8 @@ iframe {
   margin-left: -4rem;
 }
 .registration-submit-btn{
-  color: var(--clr-white);
-  background-color: var(--clr-aqua);
+  color: var(--clr-aqua);
+  background-color: var(--clr-dark);
   font-size: 2rem;
   width: 18rem;
 }
@@ -633,6 +633,60 @@ iframe {
 .form-group input{
   font-family: var(--font-poppins);
   color: var(--clr-dark); 
+}
+.modal-content{
+  background-color: var(--clr-aqua) !important;
+  font-weight: var(--weight-primary) !important;
+  font-family: var(--font-poppins) !important;
+  color: var(--clr-dark);
+
+}
+.registration-form label{
+  color: var(--clr-dark);
+  font-family: var(--font-poppins) !important;
+  font-weight: var(--weight-primary) !important;
+}
+.registration-model-text{
+  font-family: var(--font-poppins);
+  font-weight: var(--weight-secondary);
+  color: var(--clr-dark);
+}
+.registration-model-header{
+  border-bottom: 2px solid var(--clr-dark) !important;
+}
+.registration-close{
+  color: var(--clr-aqua);
+  background-color: var(--clr-dark);
+  font-family: var(--font-poppins);
+}
+.registration-form input{
+  color: var(--clr-dark);
+  font-family: var(--font-poppins) !important;
+  font-weight: var(--weight-primary) !important;
+  border:none  !important;
+  border-bottom: 4px solid var(--clr-dark) !important;
+  padding: 5px 10px !important;
+  outline: none !important;
+  background-color: var(--clr-aqua);
+}
+.registration-form input:focus{
+  color: var(--clr-dark);
+  border: none !important;
+  border-bottom: 4px solid var(--clr-dark) !important;
+  outline: none !important;
+  background-color: var(--clr-aqua);
+}
+.registration-form select{
+  color: var(--clr-aqua);
+  font-family: var(--font-poppins) !important;
+  font-weight: var(--weight-secondary) !important;
+  background-color: var(--clr-dark);
+}
+.registration-form select:focus{
+  color: var(--clr-aqua);
+  font-family: var(--font-poppins) !important;
+  font-weight: var(--weight-secondary) !important;
+  background-color: var(--clr-dark);
 }
 @media (max-width: 999px) {
 
