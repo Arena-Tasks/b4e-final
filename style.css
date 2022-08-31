@@ -126,7 +126,7 @@ iframe {
   color: var(--clr-white);
   font-family: var(--font-sans);
   font-weight: var(--weight-primary);
-  line-height: 45px;
+  line-height: 2rem;
 }
 
 .contact-b2 {
