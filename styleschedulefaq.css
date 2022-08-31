@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+:root {
+  --font-sans: "DM Sans";
+  --font-poppins: "Poppins";
+  --clr-aqua: #00adb5;
+  --clr-white: #ffffff;
+  --clr-dark: #010101;
+  --weight-primary: 400;
+  --weight-secondary: 700;
+}
+
+* {
+  margin: 0;
+  /* background-color: var(--clr-dark) !important; */
+  /* background-image: linear-gradient(to right, #000 , #020B1A) !important; */
+}
+
+body {
+  background-color: var(--clr-dark);
+
+  /* color: var(--clr-white);
+    font-family: var(--font-sans); */
+}
+.schedule {
+  height: 110vh;
+  background-color: var(--clr-dark);
+}
+.schedule_date {
+  font-family: var(--font-poppins);
+  color: var(--clr-aqua);
+  font-size: 1.5rem;
+  font-weight: var(--weight-secondary);
+}
+.schedule_content {
+  font-family: var(--font-poppins);
+  color: var(--clr-white);
+  font-size: 1.2rem;
+  font-weight: var(--weight-primary);
+}
+.schedule-img {
+  width: 60rem;
+  height: auto;
+  background-color: inherit;
+}
+.schedule_header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.schedule_header h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--clr-white);
+}
+.schedule-first {
+  top: -0.4rem;
+  left: 5rem;
+  width: 45rem;
+}
+.schedule-second {
+  top: 10.5rem;
+  left: 9rem;
+  width: 45rem;
+  text-align: end;
+}
+.schedule-third {
+  top: 21rem;
+  left: 5rem;
+  width: 45rem;
+}
+.faq_header {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.faq_header h5 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.card,
+.card-header {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin-bottom: 20px;
+}
+.btn-link {
+  width: 100%;
+  height: 60px;
+  color: var(--clr-white) !important;
+  font-weight: var(--weight-primary) !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  font-family: var(--font-poppins);
+}
+
+.card-body {
+  color: var(--clr-white);
+  font-family: var(--font-poppins);
+  font-weight: var(--weight-primary);
+  background-color: var(--clr-aqua);
+}
+.btn-link::after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 5px;
+  right: 15px;
+  top: 11px;
+  position: absolute;
+  color: var(--clr-aqua);
+}
+.btn-link.collapsed::after {
+  content: "\002b";
+}
+.btn-link::before {
+  content: "";
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  background-color: var(--clr-dark);
+  z-index: 1;
+  transform: rotate(45deg);
+  left: 30px;
+  top: 46px;
+}
+@media (max-width: 768px) {
+  .faq_header h5 {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+  }
+  .faq_header span {
+    font-size: 4.5rem;
+  }
+  .schedule_header h5 {
+    left: 3rem;
+    top: 1rem;
+    font-size: 2rem;
+  }
+  .schedule_content {
+    font-size: 1rem;
+  }
+
+  .schedule_date {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+  .schedule_header span {
+    font-size: 4rem;
+  }
+  .schedule-img {
+    width: 43rem;
+    height: 34rem;
+  }
+  .schedule-first {
+    top: -0.40000000000000036rem;
+    left: 3rem;
+    width: 38rem;
+  }
+  .schedule-second {
+    top: 8.5rem;
+    left: 2rem;
+    width: 38rem;
+    text-align: end;
+  }
+  .schedule-third {
+    top: 18rem;
+    left: 3rem;
+    width: 38rem;
+  }
+}
+@media (max-width: 376px) {
+  .faq_header span {
+    font-size: 4rem;
+  }
+
+  .faq_header h5 {
+    font-size: 2rem;
+    margin-top: 0rem;
+  }
+  .schedule-img {
+    width: 19rem;
+    height: 39rem;
+  }
+  .schedule-first {
+    top: -0.40000000000000036rem;
+    left: 2rem;
+    width: 12rem;
+  }
+  .schedule-second {
+    top: 7.5rem;
+    left: 5rem;
+    width: 12rem;
+    text-align: end;
+  }
+  .schedule-third {
+    top: 15rem;
+    left: 2rem;
+    width: 12rem;
+  }
+}
