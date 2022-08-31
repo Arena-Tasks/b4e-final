@@ -633,6 +633,29 @@ iframe {
   font-family: var(--font-poppins);
   color: var(--clr-dark); 
 }
+@media (max-width: 999px) {
+
+  .schedule-img {
+    width: 40rem;
+    height: 33rem;
+  }
+  .schedule-first {
+    top: -0.40000000000000036rem;
+    left: 3rem;
+    width: 35rem;
+  }
+  .schedule-second {
+    top: 6.5rem;
+    left: 2rem;
+    width: 35rem;
+    text-align: end;
+  }
+  .schedule-third {
+    top: 15rem;
+    left: 3rem;
+    width: 35rem;
+  }
+}
 @media (max-width: 768px) {
   .faq_header h5 {
     font-size: 2rem;
@@ -690,8 +713,8 @@ iframe {
 @media (max-width: 425px) {
 
   .schedule-img {
-    width: 19rem;
-    height: 39rem;
+    width: 24rem;
+    height: 33rem;
   }
   .schedule-first {
     top: -0.40000000000000036rem;
@@ -699,13 +722,13 @@ iframe {
     width: 12rem;
   }
   .schedule-second {
-    top: 7.5rem;
-    left: 5rem;
+    top: 3.5rem;
+    left: 10rem;
     width: 12rem;
     text-align: end;
   }
   .schedule-third {
-    top: 15rem;
+    top: 10rem;
     left: 2rem;
     width: 12rem;
   }
