@@ -680,6 +680,9 @@ iframe {
   .registration-center{
     border: none;
   }
+  .about-second{
+    margin-left: 0;
+  }
 }
 @media (max-width: 376px) {
   .faq_header span {
