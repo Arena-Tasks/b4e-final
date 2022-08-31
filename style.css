@@ -476,7 +476,7 @@ iframe {
   } */
 
 .schedule {
-  height: 110vh;
+  height: 100vh;
   background-color: var(--clr-dark);
 }
 .schedule_date {
