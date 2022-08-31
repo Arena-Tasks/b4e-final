@@ -483,7 +483,7 @@ iframe {
   } */
 
 .schedule {
-  height: 100vh;
+  height: 75vh;
   background-color: var(--clr-dark);
 }
 .schedule_date {
@@ -709,6 +709,9 @@ iframe {
   font-family: var(--font-poppins) !important;
   font-weight: var(--weight-secondary) !important;
   background-color: var(--clr-dark);
+}
+.faq_space{
+  padding-left: 5rem;
 }
 @media (max-width: 999px) {
   .schedule-img {
