@@ -609,7 +609,21 @@ iframe {
   width: 18rem;
   margin-left: -4rem;
 }
+.registration-submit-btn{
+  color: var(--clr-white);
+  background-color: var(--clr-aqua);
+  font-size: 2rem;
+  width: 18rem;
+}
 
+.form-group label{
+  font-family: var(--font-poppins);
+  color: var(--clr-dark);
+}
+.form-group input{
+  font-family: var(--font-poppins);
+  color: var(--clr-dark); 
+}
 @media (max-width: 768px) {
   .faq_header h5 {
     font-size: 2rem;

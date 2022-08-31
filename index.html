@@ -161,44 +161,177 @@
           <div class="row registration-icon-row justify-content-center">
 
             <i class="fa-solid fa-clipboard-check registration-icon"></i>
-            
+
           </div>
           <div class="row registration-step justify-content-center">
             <b class="registration-step-text">Step 1</b>
           </div>
           <div class="row registration-text mt-5">
-            <p>Only one member from each team needs to fill up the registration form and enter the details of both the members.</p>
+            <p>Only one member from each team needs to fill up the registration form and enter the details of both the
+              members.</p>
           </div>
         </div>
         <div class="col-md-4 registration-center">
           <div class="row registration-icon-row justify-content-center">
 
             <i class="fa-solid fa-clipboard-check registration-icon"></i>
-            
+
           </div>
           <div class="row registration-step justify-content-center">
             <b class="registration-step-text">Step 2</b>
           </div>
           <div class="row registration-text mt-5">
-            <p>Make sure you and your teammate are registered on Codechef before filling up the form, as we will require your Codechef userIDs.Make sure you and your teammate are registered on Codechef before filling up the form, as we will require your Codechef userIDs.</p>
+            <p>Make sure you and your teammate are registered on Codechef before filling up the form, as we will require
+              your Codechef userIDs.Make sure you and your teammate are registered on Codechef before filling up the
+              form, as we will require your Codechef userIDs.</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="row registration-icon-row justify-content-center">
 
             <i class="fa-solid fa-clipboard-check registration-icon"></i>
-            
+
           </div>
           <div class="row registration-step justify-content-center">
             <b class="registration-step-text">Step 3</b>
           </div>
           <div class="row registration-text mt-5">
-            <p>You can pay via UPI only. Pay on this UPI ID XXXXXXXX (will update soon). After doing the payment, you have to fill up the registration form and mention your transaction ID to confirm your registration.</p>
+            <p>You can pay via UPI only. Pay on this UPI ID XXXXXXXX (will update soon). After doing the payment, you
+              have to fill up the registration form and mention your transaction ID to confirm your registration.</p>
           </div>
         </div>
       </div>
       <div class="row justify-content-center mt-5">
-        <button class="rounded-pill registration-btn">Register</button>
+        <button class="rounded-pill registration-btn" data-toggle="modal" data-target="#exampleModal">Register</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registeration Form</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <b>Person 1(Team Leader)</b>
+                      <div class="form-group">
+                        <label for="person1Name">Enter Name</label>
+                        <input type="text" class="form-control" id="person1Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="person1Email">Email address</label>
+                        <input type="email" class="form-control" id="person1Email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <label for="person1arenaid">Enter Arena username</label>
+                        <input type="text" class="form-control" id="person1arenaid">
+                      </div>
+                      <div class="form-group">
+                        <label for="person1phone">Enter Phone Number</label>
+                        <input type="number" class="form-control" id="person1phone">
+                      </div>
+                      <div class="form-group">
+                        <label for="person1college">Enter College Name</label>
+                        <input type="text" class="form-control" id="person1college">
+                      </div>
+                      <div class="form-group">
+                        <label for="person1selectyear">Select Year</label>
+                        <select class="form-control" id="person1selectyear">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="person1selectbranch">Select Branch</label>
+                        <select class="form-control" id="person1selectbranch">
+                          <option>IT</option>
+                          <option>CE</option>
+                          <option>EXTC</option>
+                          <option>AIML</option>
+                          <option>MECH</option>
+                          <option>AIDS</option>
+                          <option>Others</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <b>Person 2</b>
+                      <div class="form-group">
+                        <label for="person2Name">Enter Name</label>
+                        <input type="text" class="form-control" id="person2Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="person2Email">Email address</label>
+                        <input type="email" class="form-control" id="person2Email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <label for="person2arenaid">Enter Arena username</label>
+                        <input type="text" class="form-control" id="person2arenaid">
+                      </div>
+                      <div class="form-group">
+                        <label for="person2phone">Enter Phone Number</label>
+                        <input type="number" class="form-control" id="person2phone">
+                      </div>
+                      <div class="form-group">
+                        <label for="person2college">Enter College Name</label>
+                        <input type="text" class="form-control" id="person2college">
+                      </div>
+                      <div class="form-group">
+                        <label for="person2selectyear">Select Year</label>
+                        <select class="form-control" id="person2selectyear">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="person2selectbranch">Select Branch</label>
+                        <select class="form-control" id="person2selectbranch">
+                          <option>IT</option>
+                          <option>CE</option>
+                          <option>EXTC</option>
+                          <option>AIML</option>
+                          <option>MECH</option>
+                          <option>AIDS</option>
+                          <option>Others</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-lg-6">
+
+                      <div class="form-group">
+                        <label for="teamname">Enter Team Name</label>
+                        <input type="text" class="form-control" id="teamname">
+                      </div>
+                      </div>
+                      <div class="col-lg-6">
+                      <div class="form-group">
+                        <label for="transactionID">Enter Transactio ID</label>
+                        <input type="text" class="form-control" id="transactionID">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row w-100 justify-content-center">
+
+                    <button type="submit" class="rounded-pill registration-submit-btn">Submit</button>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
