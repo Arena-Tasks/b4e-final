@@ -876,3 +876,12 @@ iframe {
     font-size: 1.2rem;
   }
 }
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  z-index: 100;
+  color: var(--clr-dark);
+  background-color: var(--clr-aqua);
+}
