@@ -549,7 +549,7 @@
 
     const countDownDate = function () {
       let timeleft =
-        new Date(countdown.getAttribute("data-count")).getTime() -
+        new Date("Sep 16, 2022 15:59:00").getTime() -
         new Date().getTime();
 
       let days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
