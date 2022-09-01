@@ -893,3 +893,23 @@ iframe {
   color: var(--clr-dark);
   background-color: var(--clr-aqua);
 }
+.registration-website-link{
+  color: var(--clr-aqua);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.registration-website-link:hover{
+  text-decoration: none;
+  color: var(--clr-aqua);
+}
+.faq-website-link{
+  color: var(--clr-dark);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.faq-website-link:hover{
+  text-decoration: none;
+  color: var(--clr-dark);
+}
