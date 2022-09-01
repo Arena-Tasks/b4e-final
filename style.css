@@ -713,16 +713,6 @@ iframe {
 .faq_space{
   padding-left: 5rem;
 }
-@media (max-width: 2560px) {
-  .schedule {
-    height: 90vh;
-  }
-}
-@media (max-width: 1440px) {
-  .schedule {
-    height: 100vh;
-  }
-}
 @media (max-width: 999px) {
   .schedule-img {
     width: 40rem;
