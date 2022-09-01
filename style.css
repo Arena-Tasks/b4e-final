@@ -161,7 +161,7 @@ iframe {
 
 .copyright {
   font-size: 22px;
-  padding-bottom: 120px;
+  padding-bottom: 10px;
   font-family: var(--font-sans);
   letter-spacing: 1.5px;
   color: #c4c4c4;
@@ -175,7 +175,7 @@ iframe {
   width: 93%;
   margin: 3%;
   text-align: center;
-  padding: 40px 40px 0px 40px;
+  padding: 0px 12px 0px 10px;
   /* padding-bottom: 0px; */
 }
 
@@ -794,6 +794,9 @@ iframe {
   .active {
     border: none;
   }
+  .snip1533{
+    margin-left: 5rem;
+  }
 }
 @media (max-width: 425px) {
   .schedule-img {
@@ -851,7 +854,13 @@ iframe {
     font-size: 1.2rem;
   }
   .snip1533 {
-    margin-left: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .registration-text{
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .registration-center {
     border: none;
