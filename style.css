@@ -795,7 +795,8 @@ iframe {
     border: none;
   }
   .snip1533{
-    margin-left: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 }
 @media (max-width: 425px) {
