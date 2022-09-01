@@ -25,7 +25,7 @@ body {
     font-family: var(--font-sans); */
 }
 
-h5{
+h5 {
   color: var(--clr-white);
   font-family: var(--font-poppins);
   font-size: 1.3rem;
@@ -710,9 +710,16 @@ iframe {
   font-weight: var(--weight-secondary) !important;
   background-color: var(--clr-dark);
 }
-.faq_space{
+.faq_space {
   padding-left: 5rem;
 }
+/* greater Than 1440px */
+@media only screen and (min-width: 2000px) and (max-width: 2560px)  {
+  .schedule {
+    height: 45vh;
+  }
+}
+
 @media (max-width: 999px) {
   .schedule-img {
     width: 40rem;
@@ -794,7 +801,7 @@ iframe {
   .active {
     border: none;
   }
-  .snip1533{
+  .snip1533 {
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -858,7 +865,7 @@ iframe {
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .registration-text{
+  .registration-text {
     font-size: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
