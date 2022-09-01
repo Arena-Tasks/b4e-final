@@ -527,7 +527,7 @@ iframe {
   text-align: end;
 }
 .schedule-third {
-  top: 12rem;
+  top: 11rem;
   left: 5rem;
   width: 45rem;
 }
@@ -737,7 +737,7 @@ iframe {
     text-align: end;
   }
   .schedule-third {
-    top: 15rem;
+    top: 13rem;
     left: 3rem;
     width: 35rem;
   }
@@ -782,7 +782,7 @@ iframe {
     text-align: end;
   }
   .schedule-third {
-    top: 15rem;
+    top: 13rem;
     left: 2rem;
     width: 22rem;
   }
@@ -814,18 +814,18 @@ iframe {
   .schedule-first {
     top: -0.40000000000000036rem;
     left: 2rem;
-    width: 12rem;
+    width: 20rem;
   }
   .schedule-second {
-    top: 3.5rem;
-    left: 10rem;
-    width: 12rem;
+    top: 5.7rem;
+    left: 2rem;
+    width: 20rem;
     text-align: end;
   }
   .schedule-third {
-    top: 10rem;
+    top: 12rem;
     left: 2rem;
-    width: 12rem;
+    width: 20rem;
   }
 }
 @media (max-width: 376px) {
@@ -854,7 +854,7 @@ iframe {
     text-align: end;
   }
   .schedule-third {
-    top: 13rem;
+    top: 10rem;
     left: 2rem;
     width: 17rem;
   }
