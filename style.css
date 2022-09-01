@@ -68,6 +68,7 @@ h5 {
   color: var(--clr-white);
   font-family: var(--font-poppins);
   font-weight: var(--weight-primary);
+  font-size: 1.2rem;
 }
 
 .hero-h2 {
