@@ -719,6 +719,11 @@ iframe {
     height: 45vh;
   }
 }
+@media (min-height: 1317px) and (min-width: 320px) {
+  .schedule {
+    height: 55vh;
+  }
+}
 
 @media (max-width: 999px) {
   .schedule-img {
